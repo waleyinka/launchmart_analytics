@@ -1,4 +1,4 @@
-# LaunchMart E-commerce Customer Loyalty Analysis
+# LaunchMart Customer Loyalty Analysis
 
 This project provides a detailed analysis of customer behavior, revenue performance, and loyalty program engagement for LaunchMart, a growing African e-commerce company. The goal was to generate actionable insights to support the marketing and operations teams in driving customer retention and optimizing the loyalty program.
 
@@ -6,11 +6,11 @@ This project provides a detailed analysis of customer behavior, revenue performa
 ## 🎯 Key Objectives
 The analysis focused on answering critical business questions across three main areas:
 
-    1. **Revenue and Order Performance**: Tracking monthly sales, Average Order Value (AOV), and identifying top spenders.
+1. **Revenue and Order Performance**: Tracking monthly sales, Average Order Value (AOV), and identifying top spenders.
 
-    2. **Customer Activity & Retention**: Identifying inactive customers and those at risk of churn.
+2. **Customer Activity & Retention**: Identifying inactive customers and those at risk of churn.
 
-    3. **Loyalty Program Assessment**: Segmenting customers into loyalty tiers (Bronze, Silver, Gold) based on total points.
+3. **Loyalty Program Assessment**: Segmenting customers into loyalty tiers (Bronze, Silver, Gold) based on total points.
 
 
 ## 📊 Data Schema
