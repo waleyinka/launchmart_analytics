@@ -14,12 +14,6 @@
 
 
 
-    -- RESULT:
-    ![Alt Text](images/task_1_result.png)
-
-
-
-
 
 /*
 	====================================================================================================
@@ -42,11 +36,6 @@
 		c.full_name
 	ORDER BY
 		total_revenue DESC;
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_2_result.png)
 
 
 
@@ -76,12 +65,6 @@
 
 
 
-    -- RESULT:
-    ![Alt Text](images/task_3_result.png)
-
-
-
-
 
 /*
 	====================================================================================================
@@ -104,11 +87,6 @@
 	ORDER BY
 		year,
 		month;
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_4_result.png)
 
 
 
@@ -138,11 +116,6 @@
 
 
 
-    -- RESULT:
-    ![Alt Text](images/task_5_result.png)
-
-
-
 
 
 /*
@@ -165,11 +138,6 @@
 		1, 2
 	ORDER BY
 		aov DESC;
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_6_result.png)
 
 
 
@@ -199,10 +167,6 @@
 		total_revenue DESC,
 		spend_rank;
 
-
-
-    -- RESULT:
-    ![Alt Text](images/task_7_result.png)
 
 
 
@@ -237,13 +201,6 @@
 
 
 
-    -- RESULT: 
-    -- None of the customers placed more than one order.
-    ![Alt Text](images/task_8_result.png)
-
-
-
-
 
 /*
 	====================================================================================================
@@ -265,11 +222,6 @@
 		c.full_name
 	ORDER BY
 		total_points DESC;
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_9_result.png)
 
 
 
@@ -317,11 +269,6 @@
 
 
 
-    -- RESULT:
-    ![Alt Text](images/task_10_result.png)
-
-
-
 
 
 /*
@@ -357,11 +304,6 @@
 	WHERE
 		total_spend > '50000' AND
 		total_points  < '200';
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_11_result.png)
 
 
 
@@ -406,9 +348,3 @@
 	WHERE
 		last_order_date < '2023-12-31'::date - INTERVAL '90 days'
 		AND tier = 'Bronze';
-    
-
-
-
-    -- RESULT:
-    ![Alt Text](images/task_12_result.png)
